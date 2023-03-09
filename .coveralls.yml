@@ -1,0 +1,1 @@
+// && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output -> Añadir en package.json ("coverage")
