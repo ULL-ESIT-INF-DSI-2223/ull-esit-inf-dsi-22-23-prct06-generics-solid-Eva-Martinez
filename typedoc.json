@@ -2,7 +2,12 @@
   "entryPoints": [
     "./src/modification/modification-searchablecollection.ts",
     "./src/modification/modification-collectable.ts",
-    "./src/modification/modification-searchable.ts"
+    "./src/modification/modification-searchable.ts",
+    "./src/ejercicio-2/elementList.ts",
+    "./src/ejercicio-3/clase-disco.ts",
+    "./src/ejercicio-3/clase-cancion.ts",
+    "./src/ejercicio-3/clase-artista.ts",
+    "./src/ejercicio-3/clase-bibliotecaMusical.ts"
   ],
   "out": "./docs"
 }

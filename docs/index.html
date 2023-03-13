@@ -13,9 +13,42 @@
 <div class="tsd-page-title">
 <h2>ull-esit-inf-dsi-22-23-prct06-generics-solid-eva-martinez</h2></div>
 <div class="tsd-panel tsd-typography">
-<a href="#ull-esit-inf-dsi-22-23-prct06-generics-solid-eva-martinez" id="ull-esit-inf-dsi-22-23-prct06-generics-solid-eva-martinez" style="color: inherit; text-decoration: none;">
-  <h1>ull-esit-inf-dsi-22-23-prct06-generics-solid-Eva-Martinez</h1>
+<a href="#informe-realizado-por-eva-martínez-bencomo" id="informe-realizado-por-eva-martínez-bencomo" style="color: inherit; text-decoration: none;">
+  <h3>Informe realizado por Eva Martínez Bencomo</h3>
 </a>
+<p>En este informe se redactan las pautas seguidas para la realización de la práctica 6 de la asignatura <em>Desarrollo de Sistemas Informáticos</em>.</p>
+
+<a href="#actividades-previas" id="actividades-previas" style="color: inherit; text-decoration: none;">
+  <h1>Actividades Previas</h1>
+</a>
+<p>Como siempre, en primer lugar, se ha aceptado la asignación de esta tarea en <em>GitHub Classroom</em> y a continuación se instalaron las herramientas necesarias para el cumbrimiento del código fuente <em>Instanbul</em> y <em>Coveralls</em> las cuales se muestran a continuación:</p>
+
+<a href="#ejercicios" id="ejercicios" style="color: inherit; text-decoration: none;">
+  <h1>Ejercicios</h1>
+</a>
+<p>En este apartado se encuentra la explicación del código desarrollado, para su visualización seleccione el desplegable en la esquina superior derecha en el que se encuentra dicho código, o en los directorios <em>ejercicio-x</em> ubicados en este repo. </p>
+
+<a href="#ejercicio-1---dsiflix" id="ejercicio-1---dsiflix" style="color: inherit; text-decoration: none;">
+  <h2>Ejercicio 1 - DSIflix</h2>
+</a>
+<p>En este ejercicio se solicita la realización del diseño de un modelo de datos de una plataforma de streaming que contiene documentales, peliculas y series. Para ello se crean unas clases para la definición de las diferentes películas, documentales y series sucesivamente: <code>Peliculas</code>, <code>Documentales</code> y <code>Series</code>. Estas se implementan como tipo de la clase abstracta genérica <code>BasicStreamableCollection&lt;T&gt;</code> en cada una de las clases colección de estas: <code>PeliculasCollection</code>, <code>DocumentalesCollection</code> y <code>SeriesCollection</code>. Y por último tenemos la interfaz genérica <code>Streamable&lt;T&gt;</code> implementada en la clase anteriormente mencionada <code>BasicStreamableCollection&lt;T&gt;</code> para así poder incluir un método de búsqueda en las clases de colección.</p>
+<p>Con respecto a los problemas de este apartado no se mostraron muchos más que la comprencsión inicial de la estructura de las clases.</p>
+
+<a href="#ejercicio-2---implementación-de-una-lista-y-sus-operaciones" id="ejercicio-2---implementación-de-una-lista-y-sus-operaciones" style="color: inherit; text-decoration: none;">
+  <h2>Ejercicio 2 - Implementación de una lista y sus operaciones</h2>
+</a>
+<p>En este ejercicio se solicita la realización de una clase genérica similar a <em>Array.prototype</em> la cual consiste en guardar listas sobre las cuales se pueden operar con los diferentes métodos definidos en la clase, que los mismos no pueden recurrir a sus métodos hermanos. En este las complejidades fue el análisis inicial de realizar el recorrido del vector sin el uso de <em>length</em>.</p>
+
+<a href="#ejercicio-3---ampliación-de-la-biblioteca-musical" id="ejercicio-3---ampliación-de-la-biblioteca-musical" style="color: inherit; text-decoration: none;">
+  <h2>Ejercicio 3 - Ampliación de la biblioteca musical</h2>
+</a>
+<p>Por último en este ejercicio se realizó una modificación del ejercicio realizado en la práctica 5 de la asignatura al añadir nuevas clases <code>Single</code> y <code>Discografia</code>, donde se instanció por una parte que single es igual a la clase <code>Disco</code> salvo porque las canciones de single son la misma, es decir, las diferentes versiones de la misma. Y la clase <em>discografia</em> puede ser una colección de discos, singles o discos y singles, el cual se encuentra como atributo privado de la clase artista.</p>
+<p>Con respecto a las complejidades del mismo no se encontraron muchas más que la restructuración del código puesto a que los diferentes métodos tenian errores por la adición de las clases. </p>
+
+<a href="#conclusiones" id="conclusiones" style="color: inherit; text-decoration: none;">
+  <h1>Conclusiones</h1>
+</a>
+<p>Todos los ejercicios se han finalizado con éxito al igual que sus comentarios y sus diferentes tests para cada uno de ellos.</p>
 </div></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
@@ -38,9 +71,14 @@
 <ul>
 <li class="current selected"><a href="modules.html">ull-<wbr/>esit-<wbr/>inf-<wbr/>dsi-<wbr/>22-<wbr/>23-<wbr/>prct06-<wbr/>generics-<wbr/>solid-<wbr/>eva-<wbr/>martinez</a>
 <ul>
-<li class="tsd-kind-module"><a href="modules/modification_collectable.html">modification-<wbr/>collectable</a></li>
-<li class="tsd-kind-module"><a href="modules/modification_searchable.html">modification-<wbr/>searchable</a></li>
-<li class="tsd-kind-module"><a href="modules/modification_searchablecollection.html">modification-<wbr/>searchablecollection</a></li></ul></li></ul></div></details></nav></div></div>
+<li class="tsd-kind-module"><a href="modules/ejercicio_2_elementList.html">ejercicio-<wbr/>2/element<wbr/>List</a></li>
+<li class="tsd-kind-module"><a href="modules/ejercicio_3_clase_artista.html">ejercicio-<wbr/>3/clase-<wbr/>artista</a></li>
+<li class="tsd-kind-module"><a href="modules/ejercicio_3_clase_bibliotecaMusical.html">ejercicio-<wbr/>3/clase-<wbr/>biblioteca<wbr/>Musical</a></li>
+<li class="tsd-kind-module"><a href="modules/ejercicio_3_clase_cancion.html">ejercicio-<wbr/>3/clase-<wbr/>cancion</a></li>
+<li class="tsd-kind-module"><a href="modules/ejercicio_3_clase_disco.html">ejercicio-<wbr/>3/clase-<wbr/>disco</a></li>
+<li class="tsd-kind-module"><a href="modules/modification_modification_collectable.html">modification/modification-<wbr/>collectable</a></li>
+<li class="tsd-kind-module"><a href="modules/modification_modification_searchable.html">modification/modification-<wbr/>searchable</a></li>
+<li class="tsd-kind-module"><a href="modules/modification_modification_searchablecollection.html">modification/modification-<wbr/>searchablecollection</a></li></ul></li></ul></div></details></nav></div></div>
 <div class="container tsd-generator">
 <p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div>
 <div class="overlay"></div><script src="assets/main.js"></script></body></html>
