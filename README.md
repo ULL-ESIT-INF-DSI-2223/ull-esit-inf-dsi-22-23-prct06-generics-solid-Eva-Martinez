@@ -6,7 +6,7 @@ En este informe se redactan las pautas seguidas para la realización de la prác
 
 Como siempre, en primer lugar, se ha aceptado la asignación de esta tarea en *GitHub Classroom* y a continuación se instalaron las herramientas necesarias para el cumbrimiento del código fuente *Instanbul* y *Coveralls* las cuales se muestran a continuación:
 
-
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-Eva-Martinez/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-Eva-Martinez?branch=main)
 
 # Ejercicios
 
